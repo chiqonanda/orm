@@ -5,7 +5,6 @@ Aplikasi berbasis konsol (*Command Line Interface*) untuk mengelola data buku se
 ---
 
 ## 1. Struktur Proyek
-
 ```text
 src/
 ├── config/
@@ -17,6 +16,8 @@ src/
 │       └── BukuDao.java        # Abstraksi operasi CRUD (Data Access Object)
 └── main/
     └── Belajarbersama.java     # Entry point aplikasi & interaksi antarmuka CLI
+```
+
 ## 2. Paradigma Akses Data: JDBC, PreparedStatement, dan ORM
 
 Aplikasi ini mendemonstrasikan perbandingan antara pengelolaan basis data tingkat rendah berbasis JDBC murni dengan pendekatan berbasis objek menggunakan ORM.
